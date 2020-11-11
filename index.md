@@ -113,6 +113,33 @@ This paper presents FastSVC, a light-weight cross-domain sing voice conversion (
 
 ### Male source singer <audio src="wavs/A2M-ID/VKOW_20.wav" controls preload></audio>
 
+| Referneces (NUS-48E) | UCD-SVC | FastSVC (Ours) |
+| :--- | :--- | :--- |
+| <audio src="wavs/NUS-refs/ADIZ_18.wav" controls preload></audio> | <audio src="wavs/A2M-ID/UCD-SVC/VKOW-20/ADIZ.wav" controls preload></audio> | <audio src="wavs/A2M-ID/FastSVC/VKOW-20/ADIZ.wav" controls preload></audio> |
+| --- | --- | --- |
+| <audio src="wavs/NUS-refs/JLEE_11.wav" controls preload></audio> | <audio src="wavs/A2M-ID/UCD-SVC/VKOW-20/JLEE.wav" controls preload></audio> | <audio src="wavs/A2M-ID/FastSVC/VKOW-20/JLEE.wav" controls preload></audio> |
+| --- | --- | --- |
+| <audio src="wavs/NUS-refs/JTAN_07.wav" controls preload></audio> | <audio src="wavs/A2M-ID/UCD-SVC/VKOW-20/JTAN.wav" controls preload></audio> | <audio src="wavs/A2M-ID/FastSVC/VKOW-20/JTAN.wav" controls preload></audio> |
+| --- | --- | --- |
+| <audio src="wavs/NUS-refs/KENN_10.wav" controls preload></audio> | <audio src="wavs/A2M-ID/UCD-SVC/VKOW-20/KENN.wav" controls preload></audio> | <audio src="wavs/A2M-ID/FastSVC/VKOW-20/KENN.wav" controls preload></audio> |
+| --- | --- | --- |
+| <audio src="wavs/NUS-refs/MCUR_17.wav" controls preload></audio> | <audio src="wavs/A2M-ID/UCD-SVC/VKOW-20/MCUR.wav" controls preload></audio> | <audio src="wavs/A2M-ID/FastSVC/VKOW-20/MCUR.wav" controls preload></audio> |
+| --- | --- | --- |
+| <audio src="wavs/NUS-refs/MPOL_20.wav" controls preload></audio> | <audio src="wavs/A2M-ID/UCD-SVC/VKOW-20/MPOL.wav" controls preload></audio> | <audio src="wavs/A2M-ID/FastSVC/VKOW-20/MPOL.wav" controls preload></audio> |
+| --- | --- | --- |
+| <audio src="wavs/NUS-refs/MPUR_02.wav" controls preload></audio> | <audio src="wavs/A2M-ID/UCD-SVC/VKOW-20/MPUR.wav" controls preload></audio> | <audio src="wavs/A2M-ID/FastSVC/VKOW-20/MPUR.wav" controls preload></audio> |
+| --- | --- | --- |
+| <audio src="wavs/NUS-refs/NJAT_16.wav" controls preload></audio> | <audio src="wavs/A2M-ID/UCD-SVC/VKOW-20/NJAT.wav" controls preload></audio> | <audio src="wavs/A2M-ID/FastSVC/VKOW-20/NJAT.wav" controls preload></audio> |
+| --- | --- | --- |
+| <audio src="wavs/NUS-refs/PAMR_15.wav" controls preload></audio> | <audio src="wavs/A2M-ID/UCD-SVC/VKOW-20/PMAR.wav" controls preload></audio> | <audio src="wavs/A2M-ID/FastSVC/VKOW-20/PMAR.wav" controls preload></audio> |
+| --- | --- | --- |
+| <audio src="wavs/NUS-refs/SAMF_13.wav" controls preload></audio> | <audio src="wavs/A2M-ID/UCD-SVC/VKOW-20/SAMF.wav" controls preload></audio> | <audio src="wavs/A2M-ID/FastSVC/VKOW-20/SAMF.wav" controls preload></audio> |
+| --- | --- | --- |
+| <audio src="wavs/NUS-refs/VKOW_11.wav" controls preload></audio> | <audio src="wavs/A2M-ID/UCD-SVC/VKOW-20/VKOW.wav" controls preload></audio> | <audio src="wavs/A2M-ID/FastSVC/VKOW-20/VKOW.wav" controls preload></audio> |
+| --- | --- | --- |
+| <audio src="wavs/NUS-refs/ZHIY_03.wav" controls preload></audio> | <audio src="wavs/A2M-ID/UCD-SVC/VKOW-20/ZHIY.wav" controls preload></audio> | <audio src="wavs/A2M-ID/FastSVC/VKOW-20/ZHIY.wav" controls preload></audio> |
+| --- | --- | --- |
+
 ## Cross-lingual (CL) singing voice conversion
 
 | <audio src="wavs/NUS-refs/ADIZ_18.wav" controls preload></audio> |
