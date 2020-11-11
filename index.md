@@ -6,7 +6,19 @@ This paper presents FastSVC, a light-weight cross-domain sing voice conversion (
 ## Brief introduction
 - Singing voice conversion (SVC): convert the voice of one singer to that of other singers without changing the underlying content and melody.
 - Cross-domain training: models are trained with speech dataset while conversion is conducted in the singing domain.
-- Faster than real-time: able to conduct inference with a real-time factor (RTF) < 1.0 on modern CPUs.
+- Faster than real time: able to conduct inference with a real-time factor (RTF) < 1.0 on modern CPUs.
 - Any-to-many conversion: convert an arbitrary voice into a target singer’s voice within the finite singer set during training process.
 - Cross-lingual conversion: convert singing voice in a language which is unseen during the training process.
 
+## Compared systems
+- UCD-SVC: unsupervised cross-domain singing voice conversion system
+- FastSVC (Ours)
+
+## Any-to-One Cross-domain (A2O-CD) singing voice conversion
+
+
+## Any-to-Many Cross-domain (A2M-CD) singing voice conversion
+
+## Any-to-Many In-domain (A2M-ID) singing voice conversion
+
+## Cross-lingual (CL) singing voice conversion
