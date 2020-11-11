@@ -23,7 +23,6 @@ This paper presents FastSVC, a light-weight cross-domain sing voice conversion (
 | :--- | :--- | :--- | :--- |
 | <audio src="wavs/A2O-CD/LJ-refs/LJ002-0271.wav" controls preload></audio> | <audio src="wavs/A2O-CD/LJ-refs/LJ010-0295.wav" controls preload></audio> | <audio src="wavs/A2O-CD/LJ-refs/LJ028-0335.wav" controls preload></audio> | <audio src="wavs/A2O-CD/LJ-refs/LJ031-0224.wav" controls preload></audio> |
 | --- | --- | --- | --- |
-
 | Source | UCD-SVC | FastSVC (Ours) |
 | :--- | :--- | :--- |
 | <audio src="wavs/NUS-refs/ADIZ_18.wav" controls preload></audio> | <audio src="wavs/A2O-CD/UCD-SVC/ADIZ.wav" controls preload></audio> | <audio src="wavs/A2O-CD/FastSVC/ADIZ.wav" controls preload></audio> | 
@@ -42,7 +41,7 @@ This paper presents FastSVC, a light-weight cross-domain sing voice conversion (
 | --- | --- | --- |
 | <audio src="wavs/NUS-refs/NJAT_16.wav" controls preload></audio> | <audio src="wavs/A2O-CD/UCD-SVC/NJAT.wav" controls preload></audio> | <audio src="wavs/A2O-CD/FastSVC/NJAT.wav" controls preload></audio> |
 | --- | --- | --- |
-| <audio src="wavs/NUS-refs/PAMR_15.wav" controls preload></audio> | <audio src="wavs/A2O-CD/UCD-SVC/PAMR.wav" controls preload></audio> | <audio src="wavs/A2O-CD/FastSVC/PAMR.wav" controls preload></audio> | 
+| <audio src="wavs/NUS-refs/PAMR_15.wav" controls preload></audio> | <audio src="wavs/A2O-CD/UCD-SVC/PAMR.wav" controls preload></audio> | <audio src="wavs/A2O-CD/FastSVC/PMAR.wav" controls preload></audio> | 
 | --- | --- | --- |
 | <audio src="wavs/NUS-refs/SAMF_13.wav" controls preload></audio> | <audio src="wavs/A2O-CD/UCD-SVC/SAMF.wav" controls preload></audio> | <audio src="wavs/A2O-CD/FastSVC/SAMF.wav" controls preload></audio> |
 | --- | --- | --- |
@@ -51,8 +50,35 @@ This paper presents FastSVC, a light-weight cross-domain sing voice conversion (
 | <audio src="wavs/NUS-refs/ZHIY_03.wav" controls preload></audio> | <audio src="wavs/A2O-CD/UCD-SVC/ZHIY.wav" controls preload></audio> | <audio src="wavs/A2O-CD/FastSVC/ZHIY.wav" controls preload></audio> | 
 | --- | --- | --- |
 
-
 ## Any-to-Many Cross-domain (A2M-CD) singing voice conversion
+
+| Source | References (VCTK) | UCD-SVC | FastSVC (Ours) |
+| :--- | :--- | :--- | :--- | :--- |
+| <audio src="wavs/A2M-CD/source/ADIZ_18_to_p258.wav" controls preload></audio> | <audio src="wavs/A2M-CD/vctk_refs/p258_ref.wav" controls preload></audio> | <audio src="wavs/A2M-CD/UCD-SVC/ADIZ_to_p258_18.wav" controls preload></audio> | <audio src="wavs/A2M-CD/FastSVC/ADIZ_18_to_p258.wav" controls preload></audio> |
+| --- | --- | --- | --- | 
+| <audio src="wavs/A2M-CD/source/JLEE_15_to_p304.wav" controls preload></audio> | <audio src="wavs/A2M-CD/vctk_refs/p304_ref.wav" controls preload></audio> | <audio src="wavs/A2M-CD/UCD-SVC/JLEE_to_p304_15.wav" controls preload></audio> | <audio src="wavs/A2M-CD/FastSVC/JLEE_15_to_p304.wav" controls preload></audio> |
+| --- | --- | --- | --- | 
+| <audio src="wavs/A2M-CD/source/JTAN_16_to_p282.wav" controls preload></audio> | <audio src="wavs/A2M-CD/vctk_refs/p282_ref.wav" controls preload></audio> | <audio src="wavs/A2M-CD/UCD-SVC/JTAN_to_p282_16.wav" controls preload></audio> | <audio src="wavs/A2M-CD/FastSVC/JTAN_16_to_p282.wav" controls preload></audio> |
+| --- | --- | --- | --- | 
+| <audio src="wavs/A2M-CD/source/KENN_04_to_p248.wav" controls preload></audio> | <audio src="wavs/A2M-CD/vctk_refs/p248_ref.wav" controls preload></audio> | <audio src="wavs/A2M-CD/UCD-SVC/KENN_to_p248_04.wav" controls preload></audio> | <audio src="wavs/A2M-CD/FastSVC/KENN_04_to_p248.wav" controls preload></audio> |
+| --- | --- | --- | --- | 
+| <audio src="wavs/A2M-CD/source/MCUR_17_to_p233.wav" controls preload></audio> | <audio src="wavs/A2M-CD/vctk_refs/p233_ref.wav" controls preload></audio> | <audio src="wavs/A2M-CD/UCD-SVC/MCUR_to_p233_17.wav" controls preload></audio> | <audio src="wavs/A2M-CD/FastSVC/MCUR_17_to_p233.wav" controls preload></audio> |
+| --- | --- | --- | --- | 
+| <audio src="wavs/A2M-CD/source/MPOL_11_to_p256.wav" controls preload></audio> | <audio src="wavs/A2M-CD/vctk_refs/p256_ref.wav" controls preload></audio> | <audio src="wavs/A2M-CD/UCD-SVC/MPOL_to_p256_11.wav" controls preload></audio> | <audio src="wavs/A2M-CD/FastSVC/MPOL_11_to_p256.wav" controls preload></audio> |
+| --- | --- | --- | --- | 
+| <audio src="wavs/A2M-CD/source/MPUR_03_to_p248.wav" controls preload></audio> | <audio src="wavs/A2M-CD/vctk_refs/p248_ref.wav" controls preload></audio> | <audio src="wavs/A2M-CD/UCD-SVC/MPUR_to_p248_03.wav" controls preload></audio> | <audio src="wavs/A2M-CD/FastSVC/MPUR_03_to_p248.wav" controls preload></audio> |
+| --- | --- | --- | --- | 
+| <audio src="wavsA2M-CD/source/NJAT_07_to_p243.wav" controls preload></audio> | <audio src="wavs/A2M-CD/vctk_refs/p243_ref.wav" controls preload></audio> | <audio src="wavs/A2M-CD/UCD-SVC/NJAT_to_p243_07.wav" controls preload></audio> | <audio src="wavs/A2M-CD/FastSVC/NJAT_07_to_p243.wav" controls preload></audio> |
+| --- | --- | --- | --- | 
+| <audio src="wavs/A2M-CD/source/PMAR_11_to_p311.wav" controls preload></audio> | <audio src="wavs/A2M-CD/vctk_refs/p311_ref.wav" controls preload></audio> | <audio src="wavs/A2M-CD/UCD-SVC/PMAR_to_p311_11.wav" controls preload></audio> | <audio src="wavs/A2M-CD/FastSVC/PMAR_11_to_p311.wav" controls preload></audio> |
+| --- | --- | --- | --- | 
+| <audio src="wavs/A2M-CD/source/SAMF_18_to_p335.wav" controls preload></audio> | <audio src="wavs/A2M-CD/vctk_refs/p335_ref.wav" controls preload></audio> | <audio src="wavs/A2M-CD/UCD-SVC/SAMF_to_p335_18.wav" controls preload></audio> | <audio src="wavs/A2M-CD/FastSVC/SAMF_18_to_p335.wav" controls preload></audio> |
+| --- | --- | --- | --- | 
+| <audio src="wavs/A2M-CD/sourceVKOW_19_to_p259.wav" controls preload></audio> | <audio src="wavs/A2M-CD/vctk_refs/p259_ref.wav" controls preload></audio> | <audio src="wavs/A2M-CD/UCD-SVC/VKOW_to_p259_19.wav" controls preload></audio> | <audio src="wavs/A2M-CD/FastSVC/VKOW_19_to_p259.wav" controls preload></audio> |
+| --- | --- | --- | --- | 
+| <audio src="wavs/A2M-CD/source/ZHIY_06_to_p307.wav" controls preload></audio> | <audio src="wavs/A2M-CD/vctk_refs/p307_ref.wav" controls preload></audio> | <audio src="wavs/A2M-CD/UCD-SVC/ZHIY_to_p307_06.wav" controls preload></audio> | <audio src="wavs/A2M-CD/FastSVC/ZHIY_06_to_p307.wav" controls preload></audio> |
+| --- | --- | --- | --- | 
+
 
 ## Any-to-Many In-domain (A2M-ID) singing voice conversion
 
