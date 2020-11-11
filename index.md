@@ -82,6 +82,9 @@ This paper presents FastSVC, a light-weight cross-domain sing voice conversion (
 
 
 ## Any-to-Many In-domain (A2M-ID) singing voice conversion
+### Female source singer <audio src="wavs/A2M-ID/ADIZ_18.wav" controls preload></audio>
+
+### Male source singer <audio src="wavs/A2M-ID/VKOW_20.wav" controls preload></audio>
 
 ## Cross-lingual (CL) singing voice conversion
 
