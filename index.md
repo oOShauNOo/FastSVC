@@ -72,11 +72,11 @@ This paper presents FastSVC, a light-weight cross-domain sing voice conversion (
 | --- | --- | --- | --- | 
 | <audio src="wavs/A2M-CD/source/PMAR_11_to_p311.wav" controls preload></audio> | <audio src="wavs/A2M-CD/vctk_refs/p311_ref.wav" controls preload></audio> | <audio src="wavs/A2M-CD/UCD-SVC/PMAR_to_p311_11.wav" controls preload></audio> | <audio src="wavs/A2M-CD/FastSVC/PMAR_11_to_p311.wav" controls preload></audio> |
 | --- | --- | --- | --- | 
-| <audio src="wavs/A2M-CD/source/SAMF_18_to_p335.wav" controls preload></audio> | <audio src="wavs/A2M-CD/vctk_refs/p335_ref.wav" controls preload></audio> | <audio src="wavs/A2M-CD/UCD-SVC/SAMF_to_p335_18.wav" controls preload></audio> | <audio src="wavs/A2M-CD/FastSVC/SAMF_18_to_p335.wav" controls preload></audio> |
+| <audio src="wavs/A2M-CD/source/SAMF_18_to_p335.wav" controls preload></audio> | <audio src="wavs/A2M-CD/vctk_refs/p335_ref.wav" controls preload></audio> | <audio src="wavs/A2M-CD/UCD-SVC/SAMF_to_p335_18.wav" controls preload></audio> | <audio src="wavs/A2M-CD/FastSVC/SAMF_18_to_p335.wav" controls preload></audio> | 
+| --- | --- | --- | --- |  
+| <audio src="wavs/A2M-CD/sourceVKOW_19_to_p259.wav" controls preload></audio> | <audio src="wavs/A2M-CD/vctk_refs/p259_ref.wav" controls preload></audio> | <audio src="wavs/A2M-CD/UCD-SVC/VKOW_to_p259_19.wav" controls preload></audio> | <audio src="wavs/A2M-CD/FastSVC/VKOW_19_to_p259.wav" controls preload></audio> | 
 | --- | --- | --- | --- | 
-| <audio src="wavs/A2M-CD/sourceVKOW_19_to_p259.wav" controls preload></audio> | <audio src="wavs/A2M-CD/vctk_refs/p259_ref.wav" controls preload></audio> | <audio src="wavs/A2M-CD/UCD-SVC/VKOW_to_p259_19.wav" controls preload></audio> | <audio src="wavs/A2M-CD/FastSVC/VKOW_19_to_p259.wav" controls preload></audio> |
-| --- | --- | --- | --- | 
-| <audio src="wavs/A2M-CD/source/ZHIY_06_to_p307.wav" controls preload></audio> | <audio src="wavs/A2M-CD/vctk_refs/p307_ref.wav" controls preload></audio> | <audio src="wavs/A2M-CD/UCD-SVC/ZHIY_to_p307_06.wav" controls preload></audio> | <audio src="wavs/A2M-CD/FastSVC/ZHIY_06_to_p307.wav" controls preload></audio> |
+| <audio src="wavs/A2M-CD/source/ZHIY_06_to_p307.wav" controls preload></audio> | <audio src="wavs/A2M-CD/vctk_refs/p307_ref.wav" controls preload></audio> | <audio src="wavs/A2M-CD/UCD-SVC/ZHIY_to_p307_06.wav" controls preload></audio> | <audio src="wavs/A2M-CD/FastSVC/ZHIY_06_to_p307.wav" controls preload></audio> | 
 | --- | --- | --- | --- | 
 
 
