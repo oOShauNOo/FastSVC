@@ -17,6 +17,7 @@ This paper presents FastSVC, a light-weight cross-domain sing voice conversion (
 ## Any-to-One Cross-domain (A2O-CD) singing voice conversion
 ### Target speech reference samples from LJ-Speech.
 
+| LJ002-0271 | LJ010-0295 | LJ028-0335 | LJ031-0224 | 
 | :--- | :--- | :--- | :--- |
 | <audio src="wavs/A2O-CD/LJ-refs/LJ002-0271.wav" controls preload></audio> | <audio src="wavs/A2O-CD/LJ-refs/LJ010-0295.wav" controls preload></audio> | <audio src="wavs/A2O-CD/LJ-refs/LJ028-0335.wav" controls preload></audio> | <audio src="wavs/A2O-CD/LJ-refs/LJ031-0224.wav" controls preload></audio> |
 | --- | --- | --- | --- |
