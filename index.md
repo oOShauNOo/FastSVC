@@ -82,7 +82,9 @@ This paper presents FastSVC, a light-weight cross-domain sing voice conversion (
 
 
 ## Any-to-Many In-domain (A2M-ID) singing voice conversion
-### Female source singer <audio src="wavs/A2M-ID/ADIZ_18.wav" controls preload></audio>
+### Female source singer 
+
+| ADIZ (NUS-48E) | <audio src="wavs/A2M-ID/ADIZ_18.wav" controls preload></audio> |
 
 | Referneces (NUS-48E) | UCD-SVC | FastSVC (Ours) |
 | :--- | :--- | :--- |
@@ -111,7 +113,9 @@ This paper presents FastSVC, a light-weight cross-domain sing voice conversion (
 | <audio src="wavs/NUS-refs/ZHIY_03.wav" controls preload></audio> | <audio src="wavs/A2M-ID/UCD-SVC/ADIZ-18/ZHIY.wav" controls preload></audio> | <audio src="wavs/A2M-ID/FastSVC/ADIZ-18/ZHIY.wav" controls preload></audio> |
 | --- | --- | --- |
 
-### Male source singer <audio src="wavs/A2M-ID/VKOW_20.wav" controls preload></audio>
+### Male source singer 
+
+| VKOW (NUS-48E) | <audio src="wavs/A2M-ID/VKOW_20.wav" controls preload></audio> |
 
 | Referneces (NUS-48E) | UCD-SVC | FastSVC (Ours) |
 | :--- | :--- | :--- |
