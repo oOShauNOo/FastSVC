@@ -53,7 +53,7 @@ This paper presents FastSVC, a light-weight cross-domain sing voice conversion (
 ## Any-to-Many Cross-domain (A2M-CD) singing voice conversion
 
 | Source | References (VCTK) | UCD-SVC | FastSVC (Ours) |     
-| :--- | :--- | :--- | :--- | :--- |
+| :--- | :--- | :--- | :--- |      
 | <audio src="wavs/A2M-CD/source/ADIZ_18_to_p258.wav" controls preload></audio> | <audio src="wavs/A2M-CD/vctk_refs/p258_ref.wav" controls preload></audio> | <audio src="wavs/A2M-CD/UCD-SVC/ADIZ_to_p258_18.wav" controls preload></audio> | <audio src="wavs/A2M-CD/FastSVC/ADIZ_18_to_p258.wav" controls preload></audio> |
 | --- | --- | --- | --- | 
 | <audio src="wavs/A2M-CD/source/JLEE_15_to_p304.wav" controls preload></audio> | <audio src="wavs/A2M-CD/vctk_refs/p304_ref.wav" controls preload></audio> | <audio src="wavs/A2M-CD/UCD-SVC/JLEE_to_p304_15.wav" controls preload></audio> | <audio src="wavs/A2M-CD/FastSVC/JLEE_15_to_p304.wav" controls preload></audio> |
