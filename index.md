@@ -145,16 +145,65 @@ This paper presents FastSVC, a light-weight cross-domain sing voice conversion (
 | --- | --- | --- |
 
 ## Cross-lingual (CL) singing voice conversion
+### Female source singer 
 
-| <audio src="wavs/NUS-refs/ADIZ_18.wav" controls preload></audio> |
-| <audio src="wavs/NUS-refs/JLEE_11.wav" controls preload></audio> |
-| <audio src="wavs/NUS-refs/JTAN_07.wav" controls preload></audio> |
-| <audio src="wavs/NUS-refs/KENN_10.wav" controls preload></audio> |
-| <audio src="wavs/NUS-refs/MCUR_17.wav" controls preload></audio> |
-| <audio src="wavs/NUS-refs/MPOL_20.wav" controls preload></audio> |
-| <audio src="wavs/NUS-refs/MPUR_02.wav" controls preload></audio> |
-| <audio src="wavs/NUS-refs/NJAT_16.wav" controls preload></audio> |
-| <audio src="wavs/NUS-refs/PAMR_15.wav" controls preload></audio> |
-| <audio src="wavs/NUS-refs/SAMF_13.wav" controls preload></audio> |
-| <audio src="wavs/NUS-refs/VKOW_11.wav" controls preload></audio> |
-| <audio src="wavs/NUS-refs/ZHIY_03.wav" controls preload></audio> |
+| Chinese Source sample | <audio src="wavs/cross-lingual/JL95.wav" controls preload></audio> |
+
+| Referneces (NUS-48E) | UCD-SVC | FastSVC (Ours) |
+| :--- | :--- | :--- |
+| <audio src="wavs/NUS-refs/ADIZ_18.wav" controls preload></audio> | <audio src="wavs/cross-lingual/UCD-SVC/95/ADIZ.wav" controls preload></audio> | <audio src="wavs/cross-lingual/FastSVC/95/ADIZ.wav" controls preload></audio> |
+| --- | --- | --- |
+| <audio src="wavs/NUS-refs/JLEE_11.wav" controls preload></audio> | <audio src="wavs/cross-lingual/UCD-SVC/95/JLEE.wav" controls preload></audio> | <audio src="wavs/cross-lingual/FastSVC/95/JLEE.wav" controls preload></audio> |
+| --- | --- | --- |
+| <audio src="wavs/NUS-refs/JTAN_07.wav" controls preload></audio> | <audio src="wavs/cross-lingual/UCD-SVC/95/JTAN.wav" controls preload></audio> | <audio src="wavs/cross-lingual/FastSVC/95/JTAN.wav" controls preload></audio> |
+| --- | --- | --- |
+| <audio src="wavs/NUS-refs/KENN_10.wav" controls preload></audio> | <audio src="wavs/cross-lingual/UCD-SVC/95/KENN.wav" controls preload></audio> | <audio src="wavs/cross-lingual/FastSVC/95/KENN.wav" controls preload></audio> |
+| --- | --- | --- |
+| <audio src="wavs/NUS-refs/MCUR_17.wav" controls preload></audio> | <audio src="wavs/cross-lingual/UCD-SVC/95/MCUR.wav" controls preload></audio> | <audio src="wavs/cross-lingual/FastSVC/95/MCUR.wav" controls preload></audio> |
+| --- | --- | --- |
+| <audio src="wavs/NUS-refs/MPOL_20.wav" controls preload></audio> | <audio src="wavs/cross-lingual/UCD-SVC/95/MPOL.wav" controls preload></audio> | <audio src="wavs/cross-lingual/FastSVC/95/MPOL.wav" controls preload></audio> |
+| --- | --- | --- |
+| <audio src="wavs/NUS-refs/MPUR_02.wav" controls preload></audio> | <audio src="wavs/cross-lingual/UCD-SVC/95/MPUR.wav" controls preload></audio> | <audio src="wavs/cross-lingual/FastSVC/95/MPUR.wav" controls preload></audio> |
+| --- | --- | --- |
+| <audio src="wavs/NUS-refs/NJAT_16.wav" controls preload></audio> | <audio src="wavs/cross-lingual/UCD-SVC/95/NJAT.wav" controls preload></audio> | <audio src="wavs/cross-lingual/FastSVC/95/NJAT.wav" controls preload></audio> |
+| --- | --- | --- |
+| <audio src="wavs/NUS-refs/PAMR_15.wav" controls preload></audio> | <audio src="wavs/cross-lingual/UCD-SVC/95/PMAR.wav" controls preload></audio> | <audio src="wavs/cross-lingual/FastSVC/95/PMAR.wav" controls preload></audio> |
+| --- | --- | --- |
+| <audio src="wavs/NUS-refs/SAMF_13.wav" controls preload></audio> | <audio src="wavs/cross-lingual/UCD-SVC/95/SAMF.wav" controls preload></audio> | <audio src="wavs/cross-lingual/FastSVC/95/SAMF.wav" controls preload></audio> |
+| --- | --- | --- |
+| <audio src="wavs/NUS-refs/VKOW_11.wav" controls preload></audio> | <audio src="wavs/cross-lingual/UCD-SVC/95/VKOW.wav" controls preload></audio> | <audio src="wavs/cross-lingual/FastSVC/95/VKOW.wav" controls preload></audio> |
+| --- | --- | --- |
+| <audio src="wavs/NUS-refs/ZHIY_03.wav" controls preload></audio> | <audio src="wavs/cross-lingual/UCD-SVC/95/ZHIY.wav" controls preload></audio> | <audio src="wavs/cross-lingual/FastSVC/95/ZHIY.wav" controls preload></audio> |
+| --- | --- | --- |
+
+### Male source singer 
+
+| Chinese Source sample | <audio src="wavs/cross-lingual/JL94.wav" controls preload></audio> |
+
+| Referneces (NUS-48E) | UCD-SVC | FastSVC (Ours) |
+| :--- | :--- | :--- |
+| <audio src="wavs/NUS-refs/ADIZ_18.wav" controls preload></audio> | <audio src="wavs/cross-lingual/UCD-SVC/94/ADIZ.wav" controls preload></audio> | <audio src="wavs/cross-lingual/FastSVC/94/ADIZ.wav" controls preload></audio> |
+| --- | --- | --- |
+| <audio src="wavs/NUS-refs/JLEE_11.wav" controls preload></audio> | <audio src="wavs/cross-lingual/UCD-SVC/94/JLEE.wav" controls preload></audio> | <audio src="wavs/cross-lingual/FastSVC/94/JLEE.wav" controls preload></audio> |
+| --- | --- | --- |
+| <audio src="wavs/NUS-refs/JTAN_07.wav" controls preload></audio> | <audio src="wavs/cross-lingual/UCD-SVC/94/JTAN.wav" controls preload></audio> | <audio src="wavs/cross-lingual/FastSVC/94/JTAN.wav" controls preload></audio> |
+| --- | --- | --- |
+| <audio src="wavs/NUS-refs/KENN_10.wav" controls preload></audio> | <audio src="wavs/cross-lingual/UCD-SVC/94/KENN.wav" controls preload></audio> | <audio src="wavs/cross-lingual/FastSVC/94/KENN.wav" controls preload></audio> |
+| --- | --- | --- |
+| <audio src="wavs/NUS-refs/MCUR_17.wav" controls preload></audio> | <audio src="wavs/cross-lingual/UCD-SVC/94/MCUR.wav" controls preload></audio> | <audio src="wavs/cross-lingual/FastSVC/94/MCUR.wav" controls preload></audio> |
+| --- | --- | --- |
+| <audio src="wavs/NUS-refs/MPOL_20.wav" controls preload></audio> | <audio src="wavs/cross-lingual/UCD-SVC/94/MPOL.wav" controls preload></audio> | <audio src="wavs/cross-lingual/FastSVC/94/MPOL.wav" controls preload></audio> |
+| --- | --- | --- |
+| <audio src="wavs/NUS-refs/MPUR_02.wav" controls preload></audio> | <audio src="wavs/cross-lingual/UCD-SVC/94/MPUR.wav" controls preload></audio> | <audio src="wavs/cross-lingual/FastSVC/94/MPUR.wav" controls preload></audio> |
+| --- | --- | --- |
+| <audio src="wavs/NUS-refs/NJAT_16.wav" controls preload></audio> | <audio src="wavs/cross-lingual/UCD-SVC/94/NJAT.wav" controls preload></audio> | <audio src="wavs/cross-lingual/FastSVC/94/NJAT.wav" controls preload></audio> |
+| --- | --- | --- |
+| <audio src="wavs/NUS-refs/PAMR_15.wav" controls preload></audio> | <audio src="wavs/cross-lingual/UCD-SVC/94/PMAR.wav" controls preload></audio> | <audio src="wavs/cross-lingual/FastSVC/94/PMAR.wav" controls preload></audio> |
+| --- | --- | --- |
+| <audio src="wavs/NUS-refs/SAMF_13.wav" controls preload></audio> | <audio src="wavs/cross-lingual/UCD-SVC/94/SAMF.wav" controls preload></audio> | <audio src="wavs/cross-lingual/FastSVC/94/SAMF.wav" controls preload></audio> |
+| --- | --- | --- |
+| <audio src="wavs/NUS-refs/VKOW_11.wav" controls preload></audio> | <audio src="wavs/cross-lingual/UCD-SVC/94/VKOW.wav" controls preload></audio> | <audio src="wavs/cross-lingual/FastSVC/94/VKOW.wav" controls preload></audio> |
+| --- | --- | --- |
+| <audio src="wavs/NUS-refs/ZHIY_03.wav" controls preload></audio> | <audio src="wavs/cross-lingual/UCD-SVC/94/ZHIY.wav" controls preload></audio> | <audio src="wavs/cross-lingual/FastSVC/94/ZHIY.wav" controls preload></audio> |
+| --- | --- | --- |
+
